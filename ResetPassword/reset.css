@@ -1,0 +1,58 @@
+/* Reset Password Container (similar style to register) */
+.reset-container {
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+
+/* Reuse input and button styles from register form */
+.reset-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.reset-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.reset-form button {
+  width: 100%;
+  padding: 0.9rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.reset-form button:hover {
+  background: #0056b3;
+}
+
+.reset-form p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.reset-form a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.reset-form a:hover {
+  text-decoration: underline;
+}
